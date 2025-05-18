@@ -190,7 +190,7 @@ export default function StudentTable() {
                 setSelectedStudent(row.original);
               }}
             >
-              Preview PDF
+              Download Result
             </Menu.Item>
           </Menu.Dropdown>
         </Menu>

@@ -184,7 +184,7 @@ export default function Table({
         <div className="pb-2">
           <div className={classNames.header?.title}>{props.title}</div>
         </div>
-        <div className={`relative h-full overflow-auto`}>
+        <div className={`relative h-full overflow-auto custom-scrollbar`}>
           <table className="overflow-auto w-full align-top">
             <thead
               className={`bg-[#F9F9FA] sticky top-0 z-[2] ${classNames.table?.header}`}
